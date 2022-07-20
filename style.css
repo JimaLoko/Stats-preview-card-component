@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    Font-size: 15px;
+    color: white;
+    background: hsl(233, 47%, 7%);
+}
+
+.card {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: hsl(244, 38%, 16%);
+}
+
+.img{
+    background: url(images/image-header-mobile.jpg) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    opacity: 0.6;
+}
+
+.banner{
+    width: 100%;
+    height: 250px;
+    background-color: hsl(277, 64%, 61%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content>h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 30px;
+    font-size: 27px;
+}
+
+.content>p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 80%;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+@media(min-width: 1000px) {
+    .container {
+        text-align: start;
+    }
+
+    .card {
+        width: 1000px;
+        height: 430px;
+        border-radius: 15px;
+        background: hsl(244, 38%, 16%);
+        flex-direction: row-reverse;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .headings {
+        flex-direction: row;
+    }
+
+    .img{
+        background: url(images/image-header-desktop.jpg) no-repeat;
+        width: 100%;
+        height: 100%;
+        border-radius: 0 15px 15px 0;
+        opacity: 0.6;
+    }
+    
+    .banner{
+        width: 100%;
+        height: 100%;
+        border-radius: 0 15px 15px 0;
+    }
+    
+    .heading {
+        letter-spacing: 1px;
+        margin-right: 40px;
+    }
+}
