@@ -7,6 +7,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -23,6 +24,11 @@ Users should be able to:
 ![](design/mobile-design.jpg)
 
 ![](design/desktop-preview.jpg)
+
+### Links
+
+- Solution URL: [Stats preview card component solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-G4M1uCB2r4)
+- Live Site URL: [GitHub Pages](https://jimaloko.github.io/Stats-preview-card-component/)
 
 ## My process
 
